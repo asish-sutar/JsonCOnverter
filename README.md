@@ -21,24 +21,23 @@ The `JsonConverter` is designed to perform the following operations:
 
 ## Input Json
 {
-		"question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
-		"question_text": "What will be the output of the below code when 1 is entered?",
-		"question_key": 52,
-		"content_type": "HTML",
-		"multimedia_count": 0,
-		"tag_names": "POOL_1\nTOPIC_JAVA_CODING_ANALYSIS\nSOURCE_GFG\nDIFFICULTY_EASY\nIN_OFFLINE_EXAM",
-		"c_options": 2,
-		"w_options": "3\n1\nCTE",
-		"options_content_type": "TEXT",
-		"code_data": "import java.util.*;\nclass Main{\n        public static void main(String[] args) {\n                int ch;\n                Scanner scanner = new Scanner(System.in);\n                System.out.print(\"Enter a value between 1 and 2: \");\n                ch = scanner.nextInt();\n                switch (ch + 1) {\n                case 1:\n                        System.out.println(\"1\");\n                        break;\n                case 2:\n                        System.out.println(\"2\");\n                        break;\n                default:\n                        System.out.println(\"3\");\n                }\n        }\n}",
-		"code_language": "JAVA",
-		"explanation": "The value 1 is entered by the user. The variable ch is set to 1. The switch statement evaluates ch + 1, which equals 2.\nAs a result:\n    The case 1 is not matched because the evaluated value is 2.\n    The case 2 is matched, and it prints \"2.\"\nSo, the output for the input 1 is \"2,\" and the correct option is \"2.\"",
-		"explanation_content_type": "MARKDOWN"
-	}
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "question_text": "What is the output of the following code snippet in Java?",
+    "question_key": 153,
+    "content_type": "HTML",
+    "multimedia_count": 0,
+    "tag_names": "POOL_1\nTOPIC_GENERAL_CODING_ANALYSIS\nSOURCE_LETSFINDCOURSE\nDIFFICULTY_EASY\nIN_OFFLINE_EXAM",
+    "c_options": 13,
+    "w_options": "11\n12\n14",
+    "options_content_type": "TEXT",
+    "code_data": "int a = 5;\r\nint b = 7;\r\nint c = a++ + ++b;\r\nSystem.out.println(c);",
+    "code_language": "JAVA",
+    "explanation": "In this code, a is initalized to 5. variable b is initialized to 7. In c variable, a is post increamented and b is pre incremented. when a is post increamented the value of a is 5 but in memory it is 6. ++b means b is increamented to 8 so the value of a is 5 and b is 8 . So sum of a and b is 13.",
+    "explanation_content_type": "MARKDOWN"
+  }
 
 ## Output Json
-[
-{
+[{
   "question_key" : 153,
   "skills" : [ ],
   "toughness" : null,
@@ -64,8 +63,8 @@ The `JsonConverter` is designed to perform the following operations:
     "code_data" : "int a = 5;\r\nint b = 7;\r\nint c = a++ + ++b;\r\nSystem.out.println(c);",
     "default_code" : true
   } ]
-}
-]
+}]
+
 
 ## Dependencies
 
