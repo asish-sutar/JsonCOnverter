@@ -79,18 +79,3 @@ The code mainly consists of a single Java class, `JsonConverter`. It contains th
 
 - Ensure the Jackson library is included in the classpath for successful execution.
 - Customize the extraction and construction logic based on specific requirements by modifying the code within the `main()` method.
-
-## Example
-
-```java
-public static void main(String[] args) {
-    try {
-        //code here
-        System.out.println(outputArray.toPrettyString());
-    } catch (Exception e) {
-        e.printStackTrace();
-    }
-}
-```
-
-
