@@ -2,7 +2,7 @@
  
 This Java utility, `JsonConverter`, facilitates the transformation of a JSON file into a customized JSON structure. It reads a given JSON file, extracts specific fields, and creates a new JSON structure based on predefined criteria.
 
-## Overview
+## Overview 
 
 The `JsonConverter` is designed to perform the following operations:
 
