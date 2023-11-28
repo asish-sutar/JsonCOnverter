@@ -20,6 +20,7 @@ The `JsonConverter` is designed to perform the following operations:
 3. **Output:** The utility generates a new JSON structure based on the provided criteria, displaying it in the console output.
 
 ## Input Json
+```
 {
     "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
     "question_text": "What is the output of the following code snippet in Java?",
@@ -35,7 +36,7 @@ The `JsonConverter` is designed to perform the following operations:
     "explanation": "In this code, a is initalized to 5. variable b is initialized to 7. In c variable, a is post increamented and b is pre incremented. when a is post increamented the value of a is 5 but in memory it is 6. ++b means b is increamented to 8 so the value of a is 5 and b is 8 . So sum of a and b is 13.",
     "explanation_content_type": "MARKDOWN"
   }
-
+```
 ## Output Json
 [{
   "question_key" : 153,
