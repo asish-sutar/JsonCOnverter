@@ -71,6 +71,21 @@ The `JsonConverter` is designed to perform the following operations:
 ## Dependencies
 
 - This utility uses the Jackson library for JSON processing.
+```
+<!-- Jackson Core -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.13.0</version> <!-- Use the latest version -->
+		</dependency>
+
+		<!-- Jackson Databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.13.0</version> <!-- Use the latest version -->
+		</dependency>
+```
 
 ## Code Structure
 
